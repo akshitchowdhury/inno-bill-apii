@@ -15,6 +15,7 @@ const invoiceSchema = new Schema(
     gst: String,
     cgst: Number,
     sgst: Number,
+    Igst: Number,
     balance: Number,
     qty: Number,
     pfNo: String,
