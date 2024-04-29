@@ -13,7 +13,7 @@ export async function PUT(request, {params}){
     const {
         newClient : client,
                 newProject: project,
-             newAdress: address,
+             newAddress: address,
              newServices: services,
                newState : state,
                newCity: city,
