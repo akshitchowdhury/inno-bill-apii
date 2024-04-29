@@ -12,7 +12,7 @@ const invoiceSchema = new Schema(
     state: String,
     city: String,
     pin: Number,
-    gst: Number,
+    gst: String,
     cgst: Number,
     sgst: Number,
     balance: Number,
